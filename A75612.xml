@@ -1,0 +1,896 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The arraignment, trial, and condemnation of Squire Lottery, alias Royal-Oak Lottery</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1699</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 56 KB of XML-encoded text transcribed from 26 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A75612</idno>
+            <idno type="STC">Wing A3760A</idno>
+            <idno type="STC">ESTC R172510</idno>
+            <idno type="EEBO-CITATION">45504693</idno>
+            <idno type="OCLC">ocm 45504693</idno>
+            <idno type="VID">171588</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A75612)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 171588)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2577:21)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The arraignment, trial, and condemnation of Squire Lottery, alias Royal-Oak Lottery</title>
+               </titleStmt>
+               <extent>47 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed, and sold by A. Baldwin near the Oxford-Arms in Warwick-lane,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1699.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in: British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Lotteries --  England --  Humor.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-08</date>
+            <label>Geremy Carnes</label>Sampled and proofread</change>
+         <change>
+            <date>2012-11</date>
+            <label>SPi Global</label>Rekeyed and resubmitted</change>
+         <change>
+            <date>2013-01</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2013-01</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="half_title">
+            <pb facs="tcp:171588:1"/>
+            <p>THE TRIAL OF Squire Lottery.</p>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:171588:2" rendition="simple:additions"/>
+            <pb facs="tcp:171588:2"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb facs="tcp:171588:3"/>
+            <pb facs="tcp:171588:3" rendition="simple:additions"/>
+            <p>THE ARRAIGNMENT, TRIAL, AND CONDEMNATION OF <hi>Squire Lottery,</hi> ALIAS Royal-Oak Lottery.</p>
+            <p>
+               <hi>LONDON,</hi> Printed, and Sold by <hi>A. Baldwin</hi> near the <hi>Oxford-Arms</hi> in <hi>Warwick-lane.</hi> 1699.</p>
+         </div>
+      </front>
+      <body>
+         <div type="trial">
+            <pb facs="tcp:171588:4"/>
+            <pb n="5" facs="tcp:171588:4"/>
+            <head>THE Trial and Condemnation OF <hi>Squire Lottery,</hi> &amp;c.</head>
+            <head type="sub">Die Lunae viceſimo die Martii <hi>1698/9</hi> Anno Regni, <hi>&amp;c.</hi>
+            </head>
+            <p>AT the Time and Place appointed, came on the Trial of <hi>Squire Lot<g ref="char:EOLhyphen"/>tery,</hi> alias <hi>Royal-Oak Lottery,</hi> for abundance of intolerable Tricks, Cheats, and high Miſdemeanors, upon an Indictment lately found againſt him, in or<g ref="char:EOLhyphen"/>der to a National Delivery.</p>
+            <p>About ten of the Clock, the day and year aboverſaid, the Managers came into the Court, where, in the preſence of a
+<pb n="6" facs="tcp:171588:5"/>vaſt confluence of People of all Ranks, the Priſoner was ordered to the Bar, and requir'd to hold up his Hand; as he did accordingly.</p>
+            <p>Proclamation being made, and a Jury of good Cits which were to try the Priſo<g ref="char:EOLhyphen"/>ner being ſworn, the Indictment againſt <hi>Squire Lottery,</hi> alias <hi>Royal-Oak Lottery,</hi> was read.</p>
+            <list>
+               <head>The Jurors Names.</head>
+               <item>Mr. <hi>Poſitive</hi> a Draper in <hi>Covent-garden.</hi>
+               </item>
+               <item>Mr. <hi>Squander</hi> an Oilman in <hi>Fleetſtreet.</hi>
+               </item>
+               <item>Mr. <hi>Pert</hi> a Tobacconiſt, <hi>ditto.</hi>
+               </item>
+               <item>Mr. <hi>Captious</hi> a Milliner in <hi>Pater-noſter Row.</hi>
+               </item>
+               <item>Mr. <hi>Feeble</hi> a Coffeeman near the <hi>Change.</hi>
+               </item>
+               <item>Mr. <hi>Altrick</hi> a Merchant in <hi>Gracechurch-ſtreet.</hi>
+               </item>
+               <item>Mr. <hi>Haughty</hi> a Vintner by <hi>Grays-Inn, Holborn.</hi>
+               </item>
+               <item>Mr. <hi>Jealous</hi> a Cutler at <hi>Charing-croſs.</hi>
+               </item>
+               <item>Mr. <hi>Peeviſh</hi> a Bookſeller in <hi>St. Pauls Church<g ref="char:EOLhyphen"/>yard.</hi>
+               </item>
+               <item>Mr. <hi>Spilbook</hi> near <hi>Fleet-bridg.</hi>
+               </item>
+               <item>Mr. <hi>Noyſie</hi> a Silkman upon <hi>Ludgate-hill.</hi>
+               </item>
+               <item>Mr. <hi>Finical</hi> a Barber in <hi>Cheapſide.</hi>
+               </item>
+            </list>
+            <p>
+               <hi>Cl. of Ma. Squire Lottery,</hi> alias <hi>Royal-Oak Lottery,</hi> you ſtand Indicted by the Name of <hi>Squire Lottery,</hi> alias <hi>Royal-Oak Lottery,</hi> for that you the ſaid <hi>Squire Lottery,</hi> not having the Fear of God in your
+<pb n="7" facs="tcp:171588:5"/>Heart; nor weighing the Regard and Du<g ref="char:EOLhyphen"/>ty you owe, and of right ought to pay to the Intereſt, Safety and Satisfaction of your Fellow-Subjects; have from time to time, and at ſeveral times, and in ſeveral places, contrary to the known Laws of this Kingdom, under the ſhadow and co<g ref="char:EOLhyphen"/>verture of a Royal Oak, propagated, con<g ref="char:EOLhyphen"/>tinued, and carried on a moſt unequal, in<g ref="char:EOLhyphen"/>tricate and inſinuating Game, to the utter ruin and deſtruction of many thouſand Fa<g ref="char:EOLhyphen"/>milies: And that you the ſaid <hi>Squire Lot<g ref="char:EOLhyphen"/>tery,</hi> alias <hi>Royal-Oak Lottery,</hi> as a common Enemy to all young People, and an inve<g ref="char:EOLhyphen"/>terate Hater of all good Converſation and Diverſion, have, for many years laſt paſt, and do ſtill continue, by certain cunning Tricks and Stratagems, inſidiouſly, falſly and im<g ref="char:EOLhyphen"/>piouſly, to trepan, deceive, cheat, decoy, and entice divers Ladies, Gentlemen, Ci<g ref="char:EOLhyphen"/>tizens, Apprentices, and others, to play away their Money at manifeſt Odds and Diſadvantage. And that you the ſaid <hi>Squire Lottery,</hi> alias <hi>Royal-Oak Lottery,</hi> the more ſecretly and effectually to carry on and propagate your baſe, malicious, and covetous Deſigns and Practices, did, and do ſtill encourage ſeveral lewd and diſor<g ref="char:EOLhyphen"/>derly Perſons, to meet, propoſe, treat, con<g ref="char:EOLhyphen"/>ſult, conſent and agree upon ſeveral unjuſt
+<pb n="8" facs="tcp:171588:6"/>and illegal Methods, how to enſnare and entangle People into your deluſive Game; by which means you have, for many years laſt paſt, utterly, intirely and irrecovera<g ref="char:EOLhyphen"/>bly, contrary to all manner of Juſtice, Hu<g ref="char:EOLhyphen"/>manity, or good Nature, deſpoiled, de<g ref="char:EOLhyphen"/>prav'd and defrauded an incredible num<g ref="char:EOLhyphen"/>ber of Perſons of every Rank, Age, Sex, and Condition, of all their Lands, Goods and Effects; and from the Ruins of mul<g ref="char:EOLhyphen"/>titudes built fine Houſes, and purchas'd large Eſtates, to the great ſcandal and re<g ref="char:EOLhyphen"/>flection on the Wiſdom of the Nation, for ſuffering ſuch an intolerable Impoſtor to paſs ſo long unpuniſh'd. What ſay'ſt thou, <hi>Squire Lottery,</hi> art thou guilty of the fore<g ref="char:EOLhyphen"/>ſaid Crimes, Cheats, Tricks and Miſde<g ref="char:EOLhyphen"/>meanours thou ſtandſt Indicted of, or not Guilty?</p>
+            <sp>
+               <speaker>Lottery.</speaker>
+               <p>Not Guilty. But before I pro<g ref="char:EOLhyphen"/>ceed to make my Defence, I beg I may be permitted the aſſiſtance of three or four learned Sharpers to plead for me, in caſe any Matter of Law ariſe.</p>
+            </sp>
+            <p>This was agreed to; and the Cryer hav<g ref="char:EOLhyphen"/>ing made Proclamation, according to form, one of the Managers addreſſes himſelf to the Jury.</p>
+            <pb n="9" facs="tcp:171588:6"/>
+            <p> 
+               <hi>1ſt Manager.</hi> Gentlemen of the Jury, the Priſoner at the Bar ſtands Indicted, for propagating, abetting, and encouraging a moſt unequal, ſcandalous and dangerous Game; a Game, that if the common Re<g ref="char:EOLhyphen"/>port that paſſes upon it be true, has ruin'd more than a hundred thouſand Families. I need not tell you he's an old Offender, or indeed uſe any expreſſions, or ſpend any of your time to aggravate his Crime: if we can prove the Matters he ſtands charg'd with in the Indictment, I ſuppoſe you'l be ſufficiently ſatisfy'd you ought to find him Guilty.</p>
+            <p>
+               <hi>2d Manag.</hi> Gentlemen of the Jury, the Priſoner, <hi>Squire Lottery,</hi> alias <hi>Royal-Oak Lottery,</hi> ſtands charg'd with Crimes ſo very high and notorious, that I cannot name 'em without aſtoniſhment; the debauching our Youth, the deluding our Wives, Ser<g ref="char:EOLhyphen"/>vants and Apprentices, the deſtruction of whole Families, and the yearly ruin of in<g ref="char:EOLhyphen"/>credible Multitudes, are all of that dange<g ref="char:EOLhyphen"/>rous Conſequence, that a Man that has a<g ref="char:EOLhyphen"/>ny regard or feeling for his Country, can<g ref="char:EOLhyphen"/>not name 'em without the deepeſt concern and diſſatisfaction. But, Gentlemen, that I may not ſeem in any reſpect to whet the Edg of Juſtice, I will forbear to make any further Reflections, and ſo we'l call our
+<pb n="10" facs="tcp:171588:7"/>Witneſſes; and if we can prove the mat<g ref="char:EOLhyphen"/>ters of fact ſet forth in the Indictment, which we do not doubt, then you are to find him Guilty.</p>
+            <p>
+               <hi>Cla. of Man.</hi> Call Captain <hi>Paſthope.</hi>
+            </p>
+            <sp>
+               <speaker>1ſt Man.</speaker>
+               <p>Sir, Do you know Squire <hi>Lot<g ref="char:EOLhyphen"/>tery,</hi> the Priſoner at the Bar?</p>
+            </sp>
+            <sp>
+               <speaker>Paſthope.</speaker>
+               <p>Yes, I have known him inti<g ref="char:EOLhyphen"/>mately for near 40 years; ever ſince the Reſtoration of King <hi>Charles.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>1ſt Man.</speaker>
+               <p>Pray will you give the Bench and Jury an Account what you know of him; how he came into <hi>England,</hi> and how he has behav'd himſelf ever ſince.</p>
+            </sp>
+            <sp>
+               <speaker>Paſthope.</speaker>
+               <p>In order to make my Evidence more plain, I hope it will not be judg'd much out of form, to premiſe two or three things.</p>
+            </sp>
+            <sp>
+               <speaker>1ſt Man.</speaker>
+               <p>Mr. <hi>Paſthope,</hi> Take your own method to explain your ſelf; we muſt not abridg or direct you in any reſpect.</p>
+            </sp>
+            <sp>
+               <speaker>Paſthope.</speaker>
+               <p>In the years 60 and 61, among a great many poor Cavaliers, 'twas my hard fate to be driven to Court for a Sub<g ref="char:EOLhyphen"/>ſiſtence, where I continued in a neglected ſtate, painfully waiting the moving of the Waters for ſeveral months; when at laſt a Rumour was ſpread that a certain Stranger was landed in <hi>England,</hi> that in all probabi<g ref="char:EOLhyphen"/>lity, if we could get him the Sanction of
+<pb n="11" facs="tcp:171588:7"/>a Patent, would be a good Friend to us all.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>You ſeem to intimate as if he was a Stranger; pray, do you know what Countryman he was?</p>
+            </sp>
+            <sp>
+               <speaker>Paſthope.</speaker>
+               <p>The report of his Country was very different; ſome would have him a <hi>Walloon,</hi> ſome a <hi>Dutchman,</hi> ſome a <hi>Venetian,</hi> and others a <hi>Frenchman:</hi> indeed by his Po<g ref="char:EOLhyphen"/>licy, cunning Deſign, Forethought, <hi>&amp;c.</hi> I am very well ſatisfied he could be no <hi>Eng<g ref="char:EOLhyphen"/>liſhman.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>What kind of Credentials did he bring with him to recommend him with ſo much advantage?</p>
+            </sp>
+            <sp>
+               <speaker>Paſthope.</speaker>
+               <p>Why, he cunningly took up<g ref="char:EOLhyphen"/>on him the Character of a <hi>Royal Oak Lot<g ref="char:EOLhyphen"/>tery,</hi> and pretended a mighty Friendſhip to antiquated Loyaliſts: but for all that, there were thoſe at Court that knew he had been baniſh'd out of ſeveral Countries for diſor<g ref="char:EOLhyphen"/>derly Practices, till at laſt he pitch'd upon poor eaſy credulous <hi>England</hi> for his Re<g ref="char:EOLhyphen"/>fuge.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>You ſay then, he was a Foreign<g ref="char:EOLhyphen"/>er, that he came in with the Reſtoration, uſurp'd the Title of a <hi>Royal Oak,</hi> was eſta<g ref="char:EOLhyphen"/>bliſh'd in Friendſhip to the Cavaliers, and that for diſorderly Practices he had been baniſh'd out of ſeveral Countries; till at
+<pb n="12" facs="tcp:171588:8"/>laſt he was forc'd to fix upon <hi>England</hi> as the fitteſt <hi>Aſylum.</hi> But pray Sir, How came you ſo intimately acquainted with him at firſt?</p>
+            </sp>
+            <sp>
+               <speaker>Paſthope.</speaker>
+               <p>I was about to tell you. In order to manage his Affairs, it was thought requiſite he ſhould be provided with ſeve<g ref="char:EOLhyphen"/>ral Coadjutors, which were to be digni<g ref="char:EOLhyphen"/>fy'd with the Character of <hi>Patentees;</hi> a<g ref="char:EOLhyphen"/>mongſt which number, by the help of a friendly Courtier, I was admitted for one.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Oh! then I find you was a Pa<g ref="char:EOLhyphen"/>tentee. Pray, how long did you continue in your Patentee's Poſt? and what were the Reaſons that urg'd you to quit it at laſt?</p>
+            </sp>
+            <sp>
+               <speaker>Paſthope.</speaker>
+               <p>I kept my Patentee's Station nine years, in which time I had clear'd 4000 <hi>l.</hi> and then, upon ſome Uneaſineſs and Diſlike, I ſold it for 700 <hi>l.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Pray, Captain, tell the Court more fully what was the Reaſon that pre<g ref="char:EOLhyphen"/>vail'd with you to relinquiſh ſuch a profita<g ref="char:EOLhyphen"/>ble place.</p>
+            </sp>
+            <sp>
+               <speaker>Paſthope.</speaker>
+               <p>I had two very ſtrong Reaſons for quitting my Poſt; <hi>viz.</hi> Remorſe of Conſcience, and Apprehenſion of conſe<g ref="char:EOLhyphen"/>quent Danger. To tell you the truth, I ſaw ſo many bad Practices encourag'd and
+<pb n="13" facs="tcp:171588:8"/>ſupported, and ſo many perſons of both Sexes ruin'd; I ſaw ſo much Villany per<g ref="char:EOLhyphen"/>fected and projected, and ſo many other intolerable Miſchiefs within the compaſs of every day's Proceeding, that partly through the ſtings of my Mind, and the apprehenſions I was under of the Mob, with a great deal of Reluctancy I quitted my Poſt.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Captain, I find you're nicely qua<g ref="char:EOLhyphen"/>lify'd for an Evidence, pray therefore give the Court an Account what Methods the Priſoner us'd to take to advance his buſi<g ref="char:EOLhyphen"/>neſs.</p>
+            </sp>
+            <sp>
+               <speaker>Paſthope.</speaker>
+               <p>The way in my time, and I ſuppoſe 'tis the ſame ſtill, was, to ſend out Sharpers and Setters into all parts of the Town, and to give 'em direction to mag<g ref="char:EOLhyphen"/>nify the Advantage, Equality, and Juſtice of his Game, in order to decoy Women and Fools to come and play away their Money.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Well, but ſure he had no Wo<g ref="char:EOLhyphen"/>men or Fools of Quality, Rank, or Re<g ref="char:EOLhyphen"/>putation, that came to him? According to the common Report that paſſes upon him, there's none but the very Scoundrels and Rabble, the very Dregs and Refuſe of Fools, will think him worth their Con<g ref="char:EOLhyphen"/>verſation.</p>
+            </sp>
+            <sp>
+               <pb n="14" facs="tcp:171588:9"/>
+               <speaker>Paſthope.</speaker>
+               <p>Truly, he had 'em of all ſorts, as well Lord-fools and Lady-fools, Knight-fools and Eſquire-fools, as Cit-fools, Bully, Bawd, or Whore-fools, or any other ſort of Fools: and indeed he made no difference between 'em neither; a Cobler-fool had as much reſpect as a Lord-fool, in propor<g ref="char:EOLhyphen"/>tion to the money he had in his Pocker; and <hi>pro hac vice</hi> had as extenſive a Qualifi<g ref="char:EOLhyphen"/>cation to command, domineer, and hector, as the beſt Fool of 'em all.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Did you never obſerve any of theſe Fools to get any money of him? I can't imagine what it could be that could influ<g ref="char:EOLhyphen"/>ence 'em to embark with him, if there was nothing to be got.</p>
+            </sp>
+            <sp>
+               <speaker>Paſthope.</speaker>
+               <p>There was never any body that ever got any thing of him in the main: now and then one by chance might carry off a ſmall matter; and ſo 'twas neceſſary they ſhould, for otherwiſe his Conſtitution muſt diſſolve in courſe.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>'Tis a great myſtery to me, that ſo many People ſhould purſue a Game where every body's a Loſer at laſt: but pray Captain then, what are the odds the Priſoner is reputed to have againſt thoſe that play with him?</p>
+            </sp>
+            <sp>
+               <speaker>Paſthope.</speaker>
+               <p>No body can tell you their Ad<g ref="char:EOLhyphen"/>vantage; 'tis a cunning intricate <hi>Contexture,</hi>
+                  <pb n="15" facs="tcp:171588:9"/>and truly I very much queſtion whether the original Projector himſelf had a perfect Idea of the Odds: at a full Table and deep Play, I have ſeen him clear 600 <hi>l.</hi> in leſs than an hour.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>What are the Odds he owns him<g ref="char:EOLhyphen"/>ſelf?</p>
+            </sp>
+            <sp>
+               <speaker>Paſthope.</speaker>
+               <p>Only 32 Figures againſt 27, which indeed is Odds enough to inſure all the money at length. But this, it ſeems, was an Advantage that was allow'd him, that he might be able to keep a good Houſe, relieve the Poor, and pay an an<g ref="char:EOLhyphen"/>nual Penſion to the Crown or the Cour<g ref="char:EOLhyphen"/>tiers.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>You ſay, by his original Agree<g ref="char:EOLhyphen"/>ment he's to keep a good Houſe: pray, after all, what ſort of Houſe is it he does keep?</p>
+            </sp>
+            <sp>
+               <speaker>Paſt.</speaker>
+               <p>Why, he dines at the Tavern, where any body that has 40 or 50 <hi>l.</hi> to play away with him in the Afternoon, may be admitted into his Company.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>What, does he entertain none but thoſe that have 40 or 50 <hi>l.</hi> to loſe?</p>
+            </sp>
+            <sp>
+               <speaker>Paſt.</speaker>
+               <p>He never converſes with any Per<g ref="char:EOLhyphen"/>ſon that has no money: if they have no money, their Company's burdenſom and ungrateful, and the Waiters have Directi<g ref="char:EOLhyphen"/>ons to keep 'em out.</p>
+            </sp>
+            <sp>
+               <pb n="16" facs="tcp:171588:10"/>
+               <speaker>Man.</speaker>
+               <p>Does he do this to the very Per<g ref="char:EOLhyphen"/>ſons he has ruin'd, and won all they have? That, methinks, is a pitch of Barbarity beyond the common degree: I hardly ever read or heard of any thing ſo exaltedly cru<g ref="char:EOLhyphen"/>el and brutiſh, in all the Accounts of my Life.</p>
+            </sp>
+            <sp>
+               <speaker>Paſt.</speaker>
+               <p>I have ſeen abundance of Exam<g ref="char:EOLhyphen"/>ples of this nature, one in particular, which I ſhall never forget; a poor Lady, that had loſt 350 <hi>l. per annum</hi> to him, beſide two or three thouſand pounds in ready money, baſely and inhumanly hal'd out of doors, but for asking for a glaſs of Sack.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>You were mentioning his Charity to the Poor too; is there any thing of rea<g ref="char:EOLhyphen"/>lity in that?</p>
+            </sp>
+            <sp>
+               <speaker>Paſt.</speaker>
+               <p>For my part, I never heard of one good Act he has done in the whole courſe of his Life: ſecret Charity is the moſt me<g ref="char:EOLhyphen"/>ritorious, 'tis true; and perhaps it may be that way he may communicate his, for in<g ref="char:EOLhyphen"/>deed I never heard of any he did in pub<g ref="char:EOLhyphen"/>lick.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>You were mentioning too an an<g ref="char:EOLhyphen"/>nual Penſion to the Crown; what is it he pays to the Crown?</p>
+            </sp>
+            <sp>
+               <speaker>Paſt.</speaker>
+               <p>Indeed I cannot be poſitive in that: to the beſt of my remembrance 'tis four thouſand pounds <hi>per annum:</hi> in compenſa<g ref="char:EOLhyphen"/>tion
+<pb n="17" facs="tcp:171588:10"/>for which, beſide the general liberty he has to cheat and abuſe the World, he has the ſole Privilege of Licenſing all other Cheats and Impoſtors, commonly known by the Name of Lotteries.</p>
+            </sp>
+            <sp>
+               <speaker>2d Man.</speaker>
+               <p>You were ſpeaking ſomething, Captain <hi>Paſthope,</hi> juſt now, as if the Priſo<g ref="char:EOLhyphen"/>ner was intruſted with theſe Advantages for the benefit of ſome poor Cavaliers, which were to be the Patentees, as you call 'em. Pray tell the Jury what kind of Cavaliers theſe Patentees were.</p>
+            </sp>
+            <sp>
+               <speaker>Paſt.</speaker>
+               <p>That was all but a Blind, a pure Trick to deceive the World: the Paten<g ref="char:EOLhyphen"/>tees, in the main, were either Sharpers or broken Tradeſmen, or ſome ſuch ſort of Vermin, that had cunningly twiſted them<g ref="char:EOLhyphen"/>ſelves into the buſineſs under the ſhadow of Cavaliers.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Pray, what Opinion had the World of the Priſoner when he firſt came to be known in <hi>England?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Paſthope.</speaker>
+               <p>The ſame that it has of him now: all wiſe men look'd upon him as a Cheat, and a dangerous Spark to be let looſe in publick among our Engliſh Youth: and indeed I have heard a great many ſo<g ref="char:EOLhyphen"/>ber men paſs very ſharp Cenſures upon the Wiſdom of the Court for intruſting him with a Royal Authority.</p>
+            </sp>
+            <sp>
+               <pb n="18" facs="tcp:171588:11"/>
+               <speaker>Man.</speaker>
+               <p>What kind of Cenſures were they that they paſt? do you remember any of them particularly?</p>
+            </sp>
+            <sp>
+               <speaker>Paſt.</speaker>
+               <p>Yes, I remember ſeveral things that I am almoſt aſham'd to mention. I have heard 'em often reflecting what an intolerable Shame and Scandal it was, that a whole Kingdom ſhould be ſacrific'd to the Intereſt of two or three Courtiers, and three or four ſcurvy mercenary Patentees; that ſo many thouſand Families ſhould be ruin'd, and no notice taken of it; that ſo many Wives ſhould be ſeduc'd to rob and betray their Husbands, ſo many Children and Servants their Parents and Maſters, and ſo many horrid Miſchiefs tranſacted daily under the ſhadow of this pretended <hi>Royal-Oak Lottery,</hi> and no manner of means us'd to ſuppreſs it.</p>
+            </sp>
+            <sp>
+               <speaker>2d Man.</speaker>
+               <p>But Captain, Did you never hear of any Perſon that got money of the Priſoner in the main?</p>
+            </sp>
+            <sp>
+               <speaker>Paſt.</speaker>
+               <p>Not one. I defy him to produce one ſingle perſon that's a Gainer, againſt a hundred thouſand he has ruin'd. I'm con<g ref="char:EOLhyphen"/>fident I have a Catalogue by me of ſeveral thouſands that have been utterly undone by him within the compaſs of my own Experience.</p>
+            </sp>
+            <sp>
+               <pb n="19" facs="tcp:171588:11"/>
+               <speaker>Man.</speaker>
+               <p>What does the Town in general ſay of him?</p>
+            </sp>
+            <sp>
+               <speaker>Paſt.</speaker>
+               <p>The Town, here-a-late, is grown ſo inveterate and incens'd againſt him, that I am very well aſſur'd that if he had not been call'd to account in the very nick, the Mob would have ſpeedily taken him into their correction.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Well, Sir, you hear what the Witneſs has ſaid againſt you; will you ask him any Queſtions?</p>
+            </sp>
+            <sp>
+               <speaker>Lottery.</speaker>
+               <p>Only one; and leave the reſt till I come to make my general Defence. Sir, I deſire to know whether you was not one that was turn'd out upon the laſt Renewal of the Patent?</p>
+            </sp>
+            <sp>
+               <speaker>Paſt.</speaker>
+               <p>No, Sir, I was not. You might have remember'd that I told you I ſaw ſo much of your Falſhood and Tricks and ſo many innocent People daily ſacrific'd, to ſupport a Society of lewd, debauch'd, im<g ref="char:EOLhyphen"/>pertinent, and withal imperious Cannibals, that I thought it my beſt way to quit your Fraternity, and pack off with that little I had got, and leave you to manage your mathematical Balls, <hi>&amp;c.</hi> by your ſelf.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>I ſuppoſe, Sir, you will ask him no more Queſtions, and ſo we'll call ano<g ref="char:EOLhyphen"/>ther Witneſs.</p>
+            </sp>
+            <sp>
+               <speaker>Lottery.</speaker>
+               <p>No, Sir, I have done with him.</p>
+            </sp>
+            <sp>
+               <pb n="20" facs="tcp:171588:12"/>
+               <speaker>Man.</speaker>
+               <p>Call Squire <hi>Frivolous</hi> the Coun<g ref="char:EOLhyphen"/>ſellor: Sir, do you know <hi>Squire Lottery</hi> the Priſoner?</p>
+            </sp>
+            <sp>
+               <speaker>Frivolous.</speaker>
+               <p>I have been acquainted with him ſeveral years, to my great Coſt and Damage.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Pray, will you inform the Court what you know of him?</p>
+            </sp>
+            <sp>
+               <speaker>Frivolous.</speaker>
+               <p>I know him to be a grand De<g ref="char:EOLhyphen"/>ceiver, a common Enemy to the Publick, a Snare to our Youth, a Scandal to the Kingdom, a notorious Impoſtor, a Wretch without parallel, and beyond deſcripti<g ref="char:EOLhyphen"/>on.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>You ſeem to be very angry with him, Mr. <hi>Frivolous,</hi> pray, how long have you been acquainted with him? and where did you contract your firſt Familiari<g ref="char:EOLhyphen"/>ty?</p>
+            </sp>
+            <sp>
+               <speaker>Frivolous.</speaker>
+               <p>The firſt time I had the miſ<g ref="char:EOLhyphen"/>fortune to know him, was at an Act at <hi>Oxford</hi> about twenty years ago; where a<g ref="char:EOLhyphen"/>mong abundance of other young Fools that he entic'd to ſell their Books for Money to play with him, <hi>&amp;c.</hi> I was one.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>What, I hope, he was not ſo bar<g ref="char:EOLhyphen"/>barous as to decoy the poor young Gentle<g ref="char:EOLhyphen"/>men out of their Books?</p>
+            </sp>
+            <sp>
+               <pb n="21" facs="tcp:171588:12"/>
+               <speaker>Frivolous.</speaker>
+               <p>Yes, out of every thing they had, and out of the College to boot: For my own part I have reaſon to curſe him, I'm ſure; He flatter'd me up with ſo many Shams and falſe Pretences, and deluded me with ſo many chimerical Notions and cun<g ref="char:EOLhyphen"/>ning Aſſurances, and urg'd me ſo long from one deceitful Project to another, till at laſt he had trickt me out of all I had in the World, and then turn'd me over to the ſcorn and laughter of my Friends and Ac<g ref="char:EOLhyphen"/>quaintance.</p>
+            </sp>
+            <sp>
+               <speaker>Manag.</speaker>
+               <p>But I hope, Mr. <hi>Frivolous,</hi> he has been kind to you ſince, and us'd you like a Gentleman.</p>
+            </sp>
+            <sp>
+               <speaker>Frivolous.</speaker>
+               <p>He has us'd me as he does e<g ref="char:EOLhyphen"/>very body elſe when he has won their Money, order'd his Janiſaries to keep me out of his Office; or if I did crowd in, he treated me with ſo much contempt and ſcorn, and ſo much haughtineſs and indiffe<g ref="char:EOLhyphen"/>rence, that I could not forbear wiſhing my ſelf out again.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Have you ever been in his Com<g ref="char:EOLhyphen"/>pany at <hi>London?</hi> if you have, pray tell us what Obſervations you made?</p>
+            </sp>
+            <sp>
+               <speaker>Frivolous.</speaker>
+               <p>I never obſerv'd any thing in his Converſation worth a Remark, unleſs it was the perfidious Stratagems and Tricks he propos'd, to draw in Bubbles and Fools;
+<pb n="22" facs="tcp:171588:13"/>and with what joy and ſatisfaction he was wont to expreſs himſelf upon the entang<g ref="char:EOLhyphen"/>ling a credulous Woman, or ſome igno<g ref="char:EOLhyphen"/>rant young Coxcomb of much Money and little Wit.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>What ſort of Tricks and Strata<g ref="char:EOLhyphen"/>gems are they that he commonly makes uſe of two draw in his Women and Cox<g ref="char:EOLhyphen"/>combs?</p>
+            </sp>
+            <sp>
+               <speaker>Frivolous.</speaker>
+               <p>Why, he has commonly a Gang of mercenary Dependants, both Men and Women, that he treats and en<g ref="char:EOLhyphen"/>courages to hunt the Town for Novices and Properties of both Sexes.</p>
+            </sp>
+            <sp>
+               <speaker>Lottery.</speaker>
+               <p>I deſire he may produce ſome of the Names of theſe mercenary Depen<g ref="char:EOLhyphen"/>dants he ſpeaks of; for my part, I diſown every thing of that nature.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>He's upon his Oath, Sir, and therefore that muſt be left to the diſcre<g ref="char:EOLhyphen"/>tion of the Bench and Jury, whether they'l credit him or not; but for naming of Names, I'm of opinion he is not oblig'd to do that.</p>
+            </sp>
+            <sp>
+               <speaker>2d Man.</speaker>
+               <p>He is not bound by any means to name Names; That will conſequently betray him to ſeveral Inconveniences; you have thoſe belonging to you, that in ſuch a caſe would not ſtick to cut a Man's
+<pb n="23" facs="tcp:171588:13"/>Throat: beſides, Sir, you ought not to interrupt the Evidence.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Can you give the Bench any particular Names of Perſons he has ru<g ref="char:EOLhyphen"/>in'd?</p>
+            </sp>
+            <sp>
+               <speaker>Frivolous.</speaker>
+               <p>I have a Collection of Names in my Pocket, which I'm ſure he can't ob<g ref="char:EOLhyphen"/>ject againſt, that have loſt fourteen or fif<g ref="char:EOLhyphen"/>teen thouſand Pound <hi>per Annum,</hi> with<g ref="char:EOLhyphen"/>in my own Knowledg and Acquain<g ref="char:EOLhyphen"/>tance.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>That's a round Sum: But, pray, Mr. <hi>Frivolous,</hi> for the ſatisfaction of the Jury, mention a few of their Names.</p>
+            </sp>
+            <sp>
+               <speaker>Frivolous.</speaker>
+               <p>I ſuppoſe, <hi>Squire Lottery,</hi> you muſt remember the Kentiſh Squire in the Blue Coat, that you won the ſix hundred Pound <hi>per Annum</hi> of, in leſs than five months. You remember the Lord's Steward that loſt an Eſtate of his own of three hundred Pound <hi>per Annum,</hi> and run four thouſand Pound in Arrears to his Lord beſide. You remember, I ſuppoſe, the Weſt-India Widow, that loſt the Car<g ref="char:EOLhyphen"/>go of two Ships, valued at fifteen hundred Pound, in leſs than a month. I know you can't forget the honeſt Lady at <hi>St. James</hi>'s, that ſold all her Goods, Plate, and China, for about ſeven hundred Pound, and plaid it all away to you, as near as I
+<pb n="24" facs="tcp:171588:14"/>remember, in three mornings. I know you can't forget the three Merchants Daughters that play'd away their whole Fortunes, <hi>viz.</hi> fifteen hundred Pound a<g ref="char:EOLhyphen"/>piece in leſs than two months. You re<g ref="char:EOLhyphen"/>member the Silkman from <hi>Ludgate-hill;</hi> the young Draper in <hi>Cornhil;</hi> the Country Parſon; the Doctor of Phyſick's Daugh<g ref="char:EOLhyphen"/>ter; the Lady's Woman; the Merchant's Apprentice; the Marine Captain; the En<g ref="char:EOLhyphen"/>ſign of the Guards; the Coffee-man's Neece; the old Juſtice's Nephew; and a<g ref="char:EOLhyphen"/>bundance of others which I have in my Ca<g ref="char:EOLhyphen"/>talogue that you have cheated out of large Sums, and utterly ruin'd.</p>
+            </sp>
+            <sp>
+               <speaker>Lottery.</speaker>
+               <p>I deſire that he may be ask'd, what it was that influenc'd him at firſt to make ſuch a Catalogue?</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>He deſires to know upon what account it was that you made this Collecti<g ref="char:EOLhyphen"/>on of Names?</p>
+            </sp>
+            <sp>
+               <speaker>Frivolous.</speaker>
+               <p>I had once a deſign to have him call'd to an Account, and forc'd to a Reſtitution; in which caſe I thought the Names of theſe Perſons might be of ſome uſe to me.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>What Method did you propoſe to your ſelf to bring him to a Reſtituti<g ref="char:EOLhyphen"/>on?</p>
+            </sp>
+            <sp>
+               <pb n="25" facs="tcp:171588:14"/>
+               <speaker>Frivolous.</speaker>
+               <p>I had a Notion, that if I drew up the Caſe, and got it recommended to the Honourable Houſe of Commons, they would have thought the Priſoner worth their correction: But this he got intelli<g ref="char:EOLhyphen"/>gence of, and employ'd one of his Agents to make up the matter with me.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>What, I ſuppoſe you mean he brib'd you with a Sum of Money to decline the Proſecution?</p>
+            </sp>
+            <sp>
+               <speaker>Frivolous.</speaker>
+               <p>Truly you have hit of the ve<g ref="char:EOLhyphen"/>ry thing; he knew that I was poor, and he was guilty, and ſo compounded with me for a few Guineas to let the thing fall: And indeed, if I am not miſinform'd, his Art of Bribing, <hi>&amp;c.</hi> has guarded him ſo long from the Puniſhments which the Laws of the Land, and common Juſtice, have pro<g ref="char:EOLhyphen"/>vided for ſuch notorious Offenders.</p>
+            </sp>
+            <sp>
+               <speaker>2d Man.</speaker>
+               <p>Well, Mr. <hi>Frivolous,</hi> we won't ſpend too much time neither upon ſuch unneceſſary Reflections; and ſo, unleſs the Priſoner will ask you any Queſtions, we'l call another Witneſs.</p>
+            </sp>
+            <sp>
+               <speaker>Lottery.</speaker>
+               <p>I deſign my Defence ſhall be general, and therefore I ſhan't ask him any Queſtions, but ſubmit it to the diſcretion of the Jury, Whether a Perſon ſo highly
+<pb n="24" facs="tcp:171588:15"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb n="25" facs="tcp:171588:15"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb n="26" facs="tcp:171588:16"/>prejudic'd, may be properly deem'd a good Evidence?</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>
+                     <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>. of the Man.</hi>
+               </speaker>
+               <p>Call <hi>Monſieur Cringe</hi> the French Refugee.</p>
+            </sp>
+            <sp>
+               <speaker>1ſt Man.</speaker>
+               <p>Sir, do you know the Priſoner at the Bar, <hi>Squire Lottery?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Cringe.</speaker>
+               <p>O, Monſieur <hi>Lottery,</hi> are you there? me know you very well; me know you to be on very great Cheat, me think de greateſt of all de Engliſh Cheats.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Sir, you muſt ſpeak to the Court, and not to the Priſoner; you muſt tell the Court what you know of him.</p>
+            </sp>
+            <sp>
+               <speaker>Lottery.</speaker>
+               <p>I proteſt I don't know Monſieur <hi>Cringe;</hi> to the beſt of my knowledg I ne<g ref="char:EOLhyphen"/>ver ſaw him, nor heard of his Name.</p>
+            </sp>
+            <sp>
+               <speaker>Cringe.</speaker>
+               <p>For what you ſay, you never ſaw me, dat been one damn'd lie; but now me tink on't, you never knew no body after you have won all dere Money; you been one damn'd impudent Cheat, Monſieur <hi>Lot<g ref="char:EOLhyphen"/>tery,</hi> you know me very well.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>You muſt give good words, and direct your Diſcourſe to the Court, I tell you.</p>
+            </sp>
+            <sp>
+               <speaker>Cringe.</speaker>
+               <p>Me can no give good words, he bin ſo great a damn'd Cheat he deſerve no
+<pb n="27" facs="tcp:171588:16"/>good words, he bin de grand Cheat of the whole World; give good words?</p>
+            </sp>
+            <sp>
+               <speaker>Lottery.</speaker>
+               <p>I deſire he may be askt of what Religion he is? and what occaſion'd him to leave his own Country?</p>
+            </sp>
+            <sp>
+               <speaker>Cringe.</speaker>
+               <p>Me no tell dat, me be one French Engliſh Evidence, and dat be enough for my Religion; me leave my Country, be<g ref="char:EOLhyphen"/>cauſe me could ſtay dere no longer, and dat bin enough for dat dat too.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>His Religion, or the Reaſon of leaving of his Country, ſignifies little to his Evidence; pray tell the Jury the Cauſe that makes you ſo very angry with the Pri<g ref="char:EOLhyphen"/>ſoner, Mr. <hi>Cringe.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Cringe.</speaker>
+               <p>Very good; why den me will tell you, About four week after me came to <hi>London,</hi> me valkt to <hi>Iſlington,</hi> where me met one Engliſh Whore, ſhe carry me into the Company of de Priſoner; he tice a me to play at his Game, he treat a me, de Whore wheedle a me, till me loſe all my Money, and den both the Squire and de Whore forſake a me.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Do you know this Whore again if you ſhould ſee her?</p>
+            </sp>
+            <sp>
+               <speaker>Cringe.</speaker>
+               <p>Me know her very well; ſhe bin one Citizen's Wife, dat firſt play'd away all her Husband's Effects, and now
+<pb n="28" facs="tcp:171588:17"/>bin Whore in ordinary to de Squire and his whole Family.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Pray, Mr. <hi>Cringe,</hi> what did you loſe in all?</p>
+            </sp>
+            <sp>
+               <speaker>Cringe.</speaker>
+               <p>Me loſe too much, me loſe four hundred Piſtol in tree morning; me pawn my Sword, my Cloak, my Linnen, my Peruke, my All; and yet, Monſieur, you no know me.</p>
+            </sp>
+            <sp>
+               <speaker>2d. Man.</speaker>
+               <p>Monſieur <hi>Cringe,</hi> have you no Lotteries in <hi>France?</hi> I mean, have you no Lotteries eſtabliſht by Authority?</p>
+            </sp>
+            <sp>
+               <speaker>Cringe.</speaker>
+               <p>No, Sir, de French Authority ſuffer no ſuch ting; de French have too much Policy, and too much care of dere Country, den to ſuffer her to be expos'd at dat rate.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Well, Sir, I think we have no<g ref="char:EOLhyphen"/>thing more to do with you, unleſs the Pri<g ref="char:EOLhyphen"/>ſoner will ask you any Queſtions.</p>
+            </sp>
+            <sp>
+               <speaker>Cringe.</speaker>
+               <p>But den me have ſomething to ſay to you; Pray, who muſt pay me my Money if Monſieur <hi>Lottery</hi> be hanged?</p>
+            </sp>
+            <sp>
+               <speaker>1ſt Man.</speaker>
+               <p>That's material Queſtion indeed, Monſieur <hi>Cringe,</hi> but we can't ſtay to reſolve it now, Let the Widow
+<pb n="29" facs="tcp:171588:17"/>
+                  <hi>Turbulent</hi> and her two Daughters be call'd in.</p>
+            </sp>
+            <sp>
+               <speaker>2d Man.</speaker>
+               <p>Madam, the Court's inform'd that you can give material Evidence a<g ref="char:EOLhyphen"/>gainſt the Priſoner at the Bar, <hi>Squire Lot<g ref="char:EOLhyphen"/>tery,</hi> alias <hi>Royal-Oak Lottery;</hi> be pleas'd therefore to tell the Court what you know of him.</p>
+            </sp>
+            <sp>
+               <speaker>Turbulent.</speaker>
+               <p>I know him to be a Cheat, I know him to be a Whoremaſter, Forni<g ref="char:EOLhyphen"/>cator and Adulterer: I know him to be a deceiver of the People; I know he has ruin'd me, debauch'd my Daughters; and I know he ought to be hang'd out of the way, and made a ſpeedy Precedent of Ju<g ref="char:EOLhyphen"/>ſtice.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Pray, Madam, how came you to know him to be a Whoremaſter in the firſt place?</p>
+            </sp>
+            <sp>
+               <speaker>Turbulent.</speaker>
+               <p>I muſt be excus'd for com<g ref="char:EOLhyphen"/>ing to particulars: I'm upon my Oath, and I tell you again, upon the Oath I have taken, I know him experimentally, to be both a Whoremaſter and an Adulterer: And as for his being a Fornicator, I leave that to my Daughters to prove.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Young Ladies, what ſay you? do you know him to be a Fornicator?
+<pb n="30" facs="tcp:171588:18"/>But, pray, remember you are upon your Oaths.</p>
+            </sp>
+            <sp>
+               <speaker>Eldeſt Daughter.</speaker>
+               <p>For my own part I muſt declare, I know him to be a grand Fornicator; and I'm confident, Siſter, you know that what I ſay is true, as well as my ſelf.</p>
+            </sp>
+            <sp>
+               <speaker>Youngeſt Daughter.</speaker>
+               <p>Yes, Siſter, I know him to be that very well; and if I had thought on't, I could have brought ſeve<g ref="char:EOLhyphen"/>ral of our Neighbours Wives and Daugh<g ref="char:EOLhyphen"/>ters, that all know the thing as well as our ſelves.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Madam, we have ſpent a great deal of time about the Priſoner already, and therefore muſt beg you to be as brief as you can; if you have any thing of mo<g ref="char:EOLhyphen"/>ment to urge, go on; if not, we have done with you.</p>
+            </sp>
+            <sp>
+               <speaker>Turbulent.</speaker>
+               <p>Well, Mr. <hi>Manager,</hi> for all your haſte, I hope I may tell you this, without being thought impertinent, that between the Priſoner at the Bar, the Pa<g ref="char:EOLhyphen"/>tentees, and the hangers on upon his Of<g ref="char:EOLhyphen"/>fice, there's more Cits inſtal'd in the noble Order of Cuckoldom, more young Wo<g ref="char:EOLhyphen"/>men debauch'd, and more Fools undone,
+<pb n="31" facs="tcp:171588:18"/>than all all the Play-houſes, Bawdy-houſes, Muſick-houſes, Ordinaries, Booths, Balls, <hi>&amp;c.</hi> within the ſound of <hi>Bow</hi>-Bell.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>We have other Witneſſes which we might call, if the thing requir'd it; but, Gentlemen, having ſo effectually prov'd the Tenour of our Indictment, we'l leave it here.</p>
+            </sp>
+            <sp>
+               <speaker>2d Man.</speaker>
+               <p>Look you, <hi>Squire Lottery,</hi> we have done, and now you may ſpeak, and ſay what you will in your own defence, and call what Witneſſes you have to vindi<g ref="char:EOLhyphen"/>cate your Innocence, and to prove your ſelf not guilty of the things you ſtand charg'd with.</p>
+            </sp>
+            <sp>
+               <speaker>Lottery.</speaker>
+               <p>Sir, I intend to ſpend as little of your time as I can: I perceive, that let me ſay what I will, you are prepar'd to o<g ref="char:EOLhyphen"/>ther-rule it, and ſo I'll only ſay a few words, and call three or four Witneſſes to prove my Reputation, and then leave the good Men and true of the Jury, upon whoſe Verdict I muſt ſtand or fall, to uſe me as they ſhall beſt judg the nature of my Caſe deſerves.</p>
+               <p>I know, Gentlemen, the tide of Preju<g ref="char:EOLhyphen"/>dice runs very fierce againſt me; ſo that let
+<pb n="32" facs="tcp:171588:19"/>ſay what I will, I'm ſatisfy'd it will be all to very little purpoſe; an ill Name to a Perſon in my condition, is certain Death, which indeed makes me a little more indif<g ref="char:EOLhyphen"/>ferent in making my Defence.</p>
+               <p>But, Gentlemen, look upon me, I am the very Image of ſome of you, a married Proteſtant; upon which account I'm con<g ref="char:EOLhyphen"/>fident I may rely upon a little of your Ju<g ref="char:EOLhyphen"/>ſtice, if not your Favour.</p>
+               <p>The Crimes I am charged with are in<g ref="char:EOLhyphen"/>deed very great, and what's worſe, there's ſome of 'em I can never expect to evince. But then, Gentlemen, I hope you'l conſi<g ref="char:EOLhyphen"/>der, that whatever I did, was purely in the proſecution of my Occupation; and you know withal what Authority I had for it; ſo that if by chance, in this long tract of time, every thing ſhould not be ſo nicely conformable as you expect, I hope you'l take care to lay the Saddle upon the right Horſe.</p>
+               <p>You all know, that Covetouſneſs and Cheating are the inſeparable Companions of a Gameſter; divide him from them, and he's the moſt inſignificant Creature in Na<g ref="char:EOLhyphen"/>ture. And, Gentlemen, I appeal to your ſelves, if a little uſeful lying and falſhood be not (in ſome caſes) not only tolerable, but commendable. I dare ſay you will
+<pb n="33" facs="tcp:171588:19"/>agree with me in this, that if all the Knaves and Cheats of the Nation were call'd to the Bar and executed, there would only be a few Fools left to defend the Common-wealth.</p>
+               <p>But, Gentlemen, as I told you before, I won't ſpend your time, and therefore I'll call my Witneſſes. Call Captain <hi>Quon<g ref="char:EOLhyphen"/>dam.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Cryer.</speaker>
+               <p>Call. Capt. <hi>Quondam.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Lottery.</speaker>
+               <p>Sir, I deſire you would give the Court an account what you know of me, as to Life and Converſation.</p>
+            </sp>
+            <sp>
+               <speaker>Quondam.</speaker>
+               <p>I have known the Priſoner for ſeveral years, and have been often in his company upon particular Occaſions, and never ſaw any thing that was rude or un<g ref="char:EOLhyphen"/>hanſome by him.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Pray, noble Captain, what Coun<g ref="char:EOLhyphen"/>try-man are you?</p>
+            </sp>
+            <sp>
+               <speaker>Quondam.</speaker>
+               <p>Sir, I am a Weſt Country man.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>An Engliſh Weſt-Country, or a <hi>Weſt-India</hi> Man? or what?</p>
+            </sp>
+            <sp>
+               <speaker>Quondam.</speaker>
+               <p>I am a Weſt-Country Man of his Majeſty's own Dominions, of the Kingdom of <hi>Ireland,</hi> in the County of
+<pb n="34" facs="tcp:171588:20"/>
+                  <hi>Cork,</hi> and Pariſh of <hi>Durrus</hi> in the Barony of <hi>Weſt-Carbury,</hi> near the great Bogg of <hi>Lon<g ref="char:EOLhyphen"/>guar,</hi> Gent.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>You're a Weſt Country man with a Witneſs. And, pray, how long have you been in <hi>England?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Quondam.</speaker>
+               <p>Ever ſince the laſt year of my Soveraign Lord King <hi>James.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>And, pray, how long have you been a Captain?</p>
+            </sp>
+            <sp>
+               <speaker>Quondam.</speaker>
+               <p>I was born ſo; my Father, my Grandfather, great Grandfather, and moſt of my Kin, were all Captains before me.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>You ſay you have been often in the Priſoner's Company; pray, where have you been in his Company, and upon what account?</p>
+            </sp>
+            <sp>
+               <speaker>Quondam.</speaker>
+               <p>I have been in his Company at <hi>Epſom, Tunbridge, Lambeth, Iſlington,</hi> and at ſeveral other places both in Town and Country.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Well, but you ha'nt told what was the occaſion that brought you ſo oft into his Company.</p>
+            </sp>
+            <sp>
+               <speaker>Quondam.</speaker>
+               <p>He deſir'd me to go along with him to help him to divert and enter<g ref="char:EOLhyphen"/>tain his Gueſts, eſpecially the Ladies that us'd to viſit him.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>I ſuppoſe you're one of his De<g ref="char:EOLhyphen"/>pendents: had you never no Salary from him?</p>
+            </sp>
+            <sp>
+               <pb n="35" facs="tcp:171588:20"/>
+               <speaker>Quondam.</speaker>
+               <p>I have had ſeveral Favours from him, and I muſt own I love him very well; and, by my Shoul, I believe he's a very honeſt Man, and a good Chriſtian.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>Who's your next Evidence?</p>
+            </sp>
+            <sp>
+               <speaker>Lottery.</speaker>
+               <p>I deſire Mr. <hi>Scamper</hi> may be call'd.</p>
+            </sp>
+            <sp>
+               <speaker>Cry.</speaker>
+               <p>Call Mr. <hi>Scamper.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Lottery.</speaker>
+               <p>Pray, Mr. <hi>Scamper,</hi> give the Court an Account what you know of me as to my manner of living and behaviour in the World.</p>
+            </sp>
+            <sp>
+               <speaker>Scamper.</speaker>
+               <p>You know, <hi>Squire Lottery,</hi> your Acquaintance and mine is but of a late Date; I never ſaw you till laſt <hi>May</hi> at <hi>Lambeth-Wells,</hi> and then 'twas but by acci<g ref="char:EOLhyphen"/>dent too; you remember the occaſion ſtill, I believe; the two Female Cits that loſt all their money, and pawn'd their Lockets: I muſt confeſs you tip'd me a couple of Gui<g ref="char:EOLhyphen"/>neas and a Wink, under the notion, I ſup<g ref="char:EOLhyphen"/>poſe, that I ſhould bring 'em again, <hi>&amp;c.</hi> And this is all I know of you of my own Experience.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>I think you might as well have left out this Witneſs: Well, have you any more that you will call?</p>
+            </sp>
+            <sp>
+               <speaker>Lottery.</speaker>
+               <p>Only one, and I have done. I de<g ref="char:EOLhyphen"/>ſire Madam <hi>Allport</hi> may be call'd.</p>
+            </sp>
+            <sp>
+               <pb n="36" facs="tcp:171588:21"/>
+               <speaker>Cry.</speaker>
+               <p>Call Madam <hi>Allport.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Lottery.</speaker>
+               <p>Madam, I would beg you to do me the honour to tell the Court what you know of me.</p>
+            </sp>
+            <sp>
+               <speaker>Allport.</speaker>
+               <p>I know the Priſoner to be a per<g ref="char:EOLhyphen"/>ſon of unqueſtionable Courage, Vigour, and Performance. I have known him in the Capacity of Maid, Wife, and Widow, and never found him otherwiſe than a man fit for buſineſs in all points.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>What have we to do with his Courage, Vigour, and Performances. Do you know him to be an honeſt man, and a Friend to the Commonwealth of <hi>Eng<g ref="char:EOLhyphen"/>land?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Lottery.</speaker>
+               <p>Yes, Madam, tell 'em what you know as to my Honeſty and Reputation; for thoſe are the only things that are in<g ref="char:EOLhyphen"/>ſiſted upon here.</p>
+            </sp>
+            <sp>
+               <speaker>Allport.</speaker>
+               <p>I know you to have as much Honeſty and Reputation as the beſt of 'em. 'Tis very hard, methinks, that a Man muſt not make the beſt of his buſineſs, but he's in danger to be hang'd for it.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>You muſt make no Reflections upon the Court. If you have any thing to ſay in the Priſoner's Defence, you muſt ſpeak it without Paſſion or Reflection. But ſince you're ſo hot, Madam, where do you live, and what Occupation do you follow?</p>
+            </sp>
+            <sp>
+               <pb n="37" facs="tcp:171588:21"/>
+               <speaker>Allport.</speaker>
+               <p>I am not aſham'd to let you know where I live: I am a ſubſtantial Houſe-keeper of the Pariſh of St. <hi>James Weſtminſter;</hi> and there's ne'er an Officer belonging to the <hi>Marſhal</hi>'s Court, but will take my Bail in an Action of 39 <hi>s.</hi> as ſoon as the beſt Neighbour I have.</p>
+            </sp>
+            <sp>
+               <speaker>Man.</speaker>
+               <p>But what's this to the Priſoner? Can you ſay any thing in his Reputation? But ſince you're ſo good at that, pray what Function are you of? I ask'd you the Queſtion before.</p>
+            </sp>
+            <sp>
+               <speaker>Allport.</speaker>
+               <p>I ſell Coffee and Chocolat; and, tho I ſay it, I have as good Conveniencies to entertain both Men and Women, as any one of the Trade.</p>
+            </sp>
+            <sp>
+               <speaker>2d Man.</speaker>
+               <p>Miſtreſs, this is all foreign to the matter: what ſignifies it to us, that you ſell Coffee? and that you have good Con<g ref="char:EOLhyphen"/>veniencies? This is all but trifling, and ſpend<g ref="char:EOLhyphen"/>ing the time of the Court to no purpoſe. If ſhe has nothing to urge but ſuch looſe Tat<g ref="char:EOLhyphen"/>tle as this, let her be taken down. Sir, you don't do well to trouble the Court with ſuch Impertinence.</p>
+            </sp>
+            <sp>
+               <speaker>Lottery.</speaker>
+               <p>I beg pardon of the Court for all this trouble: I am upon my laſt legs, and without offence, I hope I may be allow'd to make the beſt of my Defence. I am
+<pb n="38" facs="tcp:171588:22"/>no Lawyer, and therefore if I am a little miſtaken in point of Form, I hope it will not be made uſe of to my Diſadvantage. All that I have more to ſay is, only two or three ſhort words with reſpect to the Witneſſes, and I have done.</p>
+               <p>As for Captain <hi>Paſthope,</hi> he's acted pure<g ref="char:EOLhyphen"/>ly by a Spirit of Malice and Prejudice; beſides, he's a rank Tory, a mere Jaco<g ref="char:EOLhyphen"/>bite, a Cavalier of the laſt Edition, upon which account I'm perſwaded the Jury are not bound to give any great credit to his Evidence.</p>
+               <p>For Mr. <hi>Frivolous,</hi> he's a Witneſs of the ſame ſpecies, an old muſty Pretender to Loyalty, a perſon that I'm told has neither taken the Oaths nor ſign'd the Aſſociation, which with ſubmiſſion ſeems to me to be a ſtrong Teſtimony againſt the validity of his Evidence; nay, I <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> told that he and <hi>Stedfast</hi> are both Poviſhly affected; and then, Gentlemen the Law ſays they can<g ref="char:EOLhyphen"/>not be good Witneſſes againſt a Proteſ<g ref="char:EOLhyphen"/>tant.</p>
+               <p>Then for Mr. <hi>Cringe</hi> the French Refugee, I think I am not at all concern'd to an<g ref="char:EOLhyphen"/>ſwer his Impertinence. What buſineſs have
+<pb n="39" facs="tcp:171588:22"/>Refugees with Whores and Gaming-hou<g ref="char:EOLhyphen"/>ſes? It is highly inconſiſtent with the Cha<g ref="char:EOLhyphen"/>racter of a perſon in a ſtate of Perſecution, to venture his money upon any account. Gentlemen, I ſuppoſe you all take the thing as well as my ſelf, and therefore I ſhall not ſpend your time in uſeleſs Aggravations or Reflections.</p>
+               <p>And for the Widow <hi>Turbulent</hi> and her Daughters, her Evidence does no way af<g ref="char:EOLhyphen"/>fect my Life: if they will own themſelves Whores, I don't think it worth my trouble to go about to diſprove them. Upon the whole, I don't perceive any thing that ei<g ref="char:EOLhyphen"/>ther of them have ſwore againſt me that can affect my Life: but that I am bound to leave to you and the Jury to conſider.</p>
+            </sp>
+            <sp>
+               <speaker>Youngest Man.</speaker>
+               <p>Gentlemen of the Jury, it comes to my turn to ſum up the Evi<g ref="char:EOLhyphen"/>dence that has been given againſt the Pri<g ref="char:EOLhyphen"/>ſoner <hi>Squire Lottery,</hi> alias <hi>Royal-Oak Lottery.</hi> I'm certain he cannot be ſo unjuſt, to ſay that he has not had a very fair and equal Trial: and for my own part, I ſhall take particular care he ſhall have no reaſon to complain of me.</p>
+               <p>I ſuppoſe you all heard the Indictment that was read againſt him; <hi>First,</hi> That
+<pb n="40" facs="tcp:171588:23"/>contrary to the known Laws of this King<g ref="char:EOLhyphen"/>dom, he has falſly, deviliſhly, and malici<g ref="char:EOLhyphen"/>ouſly, under the ſhadow and pretence of a <hi>Royal. Oak,</hi> carried on a cunning unequal Game, to the utter Ruin and Deſtructi<g ref="char:EOLhyphen"/>on of many thouſand Families. <hi>Se<g ref="char:EOLhyphen"/>condly,</hi> That he was a common Enemy to all young People, dangerous and deſtruc<g ref="char:EOLhyphen"/>tive to all good Converſation; and that for many years laſt paſt he had continu'd to trepan and deceive divers Ladies, Gen<g ref="char:EOLhyphen"/>tlemen, Citizens, and others, to play away their money with him at manifeſt odds and diſadvantage. <hi>Thirdly,</hi> That he the ſaid <hi>Royal-Oak Lottery,</hi> the better to carry on his baſe Deſigns, did encourage divers lewd Perſons, under the Notion of Patentees, to meet together, in order to propoſe ille<g ref="char:EOLhyphen"/>gal methods, the better to intangle igno<g ref="char:EOLhyphen"/>rant People. <hi>Fourthly,</hi> That for many years laſt paſt, by ſuch cunning Strata<g ref="char:EOLhyphen"/>gems and Devices and falſe Pretences, he had utterly ruin'd an incredible number of Perſons of both Sexes. And <hi>Laſtly,</hi> That he had been the occaſion of Scandal and Reflection upon the Wiſdom and Juſtice of the Nation.</p>
+               <p>This, Gentlemen, was the Subſtance of the Indictment: for the proof of which, we have produc'd ſeveral Witneſſes; and
+<pb n="41" facs="tcp:171588:23"/>had many more ready if there had been any neceſſity.</p>
+               <p>The firſt Witneſs we call'd was Captain <hi>Paſthope,</hi> a Perſon that had been formerly one of the Patentees. He gives you firſt an Account how the Priſoner came into <hi>England</hi> at the Reſtoration of King <hi>Charles</hi> the Second; that he was intruſted with a Royal Authority under the notion that he was to be a Friend to poor Cavaliers: but then he tells you a little while after<g ref="char:EOLhyphen"/>wards, that that was all but pretence, and that the Patentees were in the main a Gang of Sharpers or broken Tradeſmen, that had thruſt themſelves into the Buſi<g ref="char:EOLhyphen"/>neſs under the umbrage of Cavaliers.</p>
+               <p>He tells you likewiſe, that he had been diſgracefully kick'd out of ſeveral Coun<g ref="char:EOLhyphen"/>tries for irregular Practices, till at laſt he forc'd himſelf upon poor credulous <hi>Eng<g ref="char:EOLhyphen"/>land</hi> (as he expreſs'd it) for Sanctuary.</p>
+               <p>He alſo acquaints you, that he kept his Patentees place nine years, that he gain'd 4000 <hi>l.</hi> in the interim, and after all, ſold his Place for 700 <hi>l.</hi>
+               </p>
+               <p>He tells you too of the Methods that he generally makes uſe of to betray and tre<g ref="char:EOLhyphen"/>pan perſons, <hi>viz.</hi> by ſending out Bullies, Sharpers, and Whores, into every corner
+<pb n="42" facs="tcp:171588:24"/>of the Town, to magnify the Juſtice and Equality of his Game; by which means, Fools of all ſorts were ſeduc'd daily to come and be undone.</p>
+               <p>He gives you an Account of his Advan<g ref="char:EOLhyphen"/>tage, and ſhews you that 'tis impoſſible that any body in the main ſhould win any money of him.</p>
+               <p>He tells you, That his Houſe-keeping and Charity are both Pretence, and makes ſome Reflections upon his Cruelty to the Perſons he has ruin'd; and ſeems to inti<g ref="char:EOLhyphen"/>mate too, that the Penſion he is to pay the Crown is rather paid to ſome Courtiers to ſtand in the gap for him in a time of dan<g ref="char:EOLhyphen"/>ger.</p>
+               <p>And laſtly, he informs you that all ſober men look upon him as a Cheat, and are apt to paſs ſharp Cenſures upon the Wiſ<g ref="char:EOLhyphen"/>dom of the late Court, for intruſting him with a Royal Authority. He tells you, that the Town is at laſt grown very angry with him, and ſeem highly diſſatisfy'd that ſo many thouſand People ſhould be ſacri<g ref="char:EOLhyphen"/>fic'd to the Intereſt of two or three Cour<g ref="char:EOLhyphen"/>tiers, and three or four haughty Patentees, upon his account.</p>
+               <p>The next Witneſs we produc'd was Mr. <hi>Frivolous,</hi> a Perſon of great Honeſty and
+<pb n="43" facs="tcp:171588:24"/>Moderation. His Evidence is exactly of the ſame piece with the Captain's: he gives you a long and fair Account of all his baſe Practices and Proceedings; and withal pro<g ref="char:EOLhyphen"/>duces a large Catalogue of the Names of ſeveral conſiderable Perſons he has utterly ruin'd: and moreover, tells you he had once a Notion to draw up his Caſe, and get it recommended to the Honorable Houſe of Commons: and then he tells you 'tis his Bribery, or ſomething like it, that has defended him ſo long from the Cor<g ref="char:EOLhyphen"/>rection of the Law.</p>
+               <p>Our third Witneſs is Mr. <hi>Cringe,</hi> a French Refugee; and he ſwears he was decoy'd in<g ref="char:EOLhyphen"/>to his Company by one of the Whores in ordinary that ply at his Office; that he ſharp'd him out of 400 Piſtols in three Mornings; that he treated and careſs'd him till he had got all he had, and then barba<g ref="char:EOLhyphen"/>rouſly turn'd him off with Scorn and Con<g ref="char:EOLhyphen"/>tempt.</p>
+               <p>Gentlemen, This is a very ſtrong Con<g ref="char:EOLhyphen"/>firmation of the Evidence given againſt him by Captain <hi>Paſthope</hi> and Mr. <hi>Frivolous,</hi> eſpe<g ref="char:EOLhyphen"/>cially of that part of it that relates to his Rules and Methods of trepanning, and his Cruelty to the Perſons he has ruin'd.</p>
+               <pb n="44" facs="tcp:171588:25"/>
+               <p> The laſt Witneſs is the Widow <hi>Turbu<g ref="char:EOLhyphen"/>lent,</hi> and her two Daughters: The Widow depoſes, ſhe knows him to be a common Cheat, and withal, flatly charges him, up<g ref="char:EOLhyphen"/>on her own experience, with Whoredom and Adultery. The two Daughters ſwear him to be a grand Fornicator; and for a farther proof of their Evidence, declare that they could have brought ſeveral of their Neighbours Wives and Daughters to have confirm'd their Teſtimony.</p>
+               <p>Gentlemen, Theſe were all the Witneſ<g ref="char:EOLhyphen"/>ſes we thought proper to call: we had mul<g ref="char:EOLhyphen"/>titudes in a readineſs, if there had been any occaſion for 'em; but theſe, I'm con<g ref="char:EOLhyphen"/>fident, in the ſenſe of the Law, are ſuffi<g ref="char:EOLhyphen"/>cient to prove our Indictment.</p>
+               <p>The Priſoner in his Defence tells you, he perceives the Tide of Prejudice runs very high againſt him; that he's a mar<g ref="char:EOLhyphen"/>ried Proteſtant: and ſeems to inſinuate, that whatever he did, was in the proſecu<g ref="char:EOLhyphen"/>tion of his Office, and under the Shadow of Authority.</p>
+               <p>He tells you further, that Covetouſneſs and Cheating are the inſeparable Compani<g ref="char:EOLhyphen"/>ons of a Gameſter; and then appeals to your ſelves, if a little uſeful lying and falſhood be
+<pb n="45" facs="tcp:171588:25"/>not in ſome caſes both tolerable and com<g ref="char:EOLhyphen"/>mendable. He further inſinuates, that if all the Cheats and Knaves of the King<g ref="char:EOLhyphen"/>dom were call'd to the Bar and executed, there would be none but a few Fools left to defend the Commonwealth.</p>
+               <p>Beſides this, he calls three Witneſſes to prove his Reputation.</p>
+               <p>The firſt is one Captain <hi>Quondam</hi> a Weſt Country Gentleman, as he calls himſelf, of his Majeſty's own Dominions, of the Kingdom of <hi>Ireland,</hi> &amp;c. He tells you he's a Captain born, and came over to <hi>England</hi> the laſt year of his Sovereign Lord King <hi>James;</hi> he ſays he has been of<g ref="char:EOLhyphen"/>ten in his company at <hi>Tunbridg, Epſom,</hi> &amp;c. And for a concluſion, ſwears by his Soul, he believes him to be a very honeſt Man, and a good Chriſtian.</p>
+               <p>But, Gentlemen, this is all but Iriſh Te<g ref="char:EOLhyphen"/>ſtimony: He cannot deny at the ſame time but he's one of his Dependants; and ſo up<g ref="char:EOLhyphen"/>on the whole, I think there's very little regard to be given to what he has ſwore.</p>
+               <p>The next he calls is one Mr. <hi>Scamper;</hi> and he truly tells him, he has known him but a very little time, and gives him an un<g ref="char:EOLhyphen"/>lucky <hi>Memorandum</hi> into the bargain; upon
+<pb n="46" facs="tcp:171588:26"/>the account of his being in company with two Female Cits, while they loſt all their Money and Jewels: He tip'd him the wink, and a couple of Guineas he ſays; and that's all he can ſay of him from his own experience.</p>
+               <p>The laſt Witneſs was one Mrs. <hi>Allport</hi> a Coffee-woman; and ſhe ſwears ſhe indeed knows him very well, to be a Perſon of wonderful Vigour and Performance; ſhe has known him in the capacity of a Maid, Wife, and Widow it ſeems, and ſwears too, he's as honeſt a Man as the beſt of 'em all, and thinks 'tis very hard that he muſt not make the beſt of his buſineſs, but he's in danger to be hang'd for't.</p>
+               <p>This, Gentlemen, is the ſubſtance, both of the Evidence againſt him, and his De<g ref="char:EOLhyphen"/>fence. Now, Gentlemen, if from the whole you don't think the Priſoner at the Bar Guilty of what he's accus'd, then you're to acquit him: if you do, you're to bring him in Guilty. And ſo I'll give you no farther trouble upon the Subject.</p>
+               <p>Then the Jury withdrew, to conſider of their Verdict, and an Officer was
+<pb n="47" facs="tcp:171588:26"/>ſworn to keep them, according to Law, till agreed: and about a quar<g ref="char:EOLhyphen"/>ter of an hour afterwards they return'd into Court, and the Priſoner was brought again to the Bar, and found Guilty according to the Indictment.</p>
+               <p>The next opportunity he was brought to the Bar again, to offer what he had to ſay for ſtop of Judgment; and afterwards received Sentence, together with Mr. <hi>Aucti<g ref="char:EOLhyphen"/>on</hi> and Dr. <hi>Land-Bank,</hi> who were both Try'd, Convicted, and Condemn'd; and their Trials will be publiſh'd with all poſ<g ref="char:EOLhyphen"/>ſible ſpeed.</p>
+            </sp>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
